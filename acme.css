@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(202, 202, 188);
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+#header{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    height: 80px;
+    border-bottom: orangered solid 4px;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+   
+}
+ #header > div{
+     margin-left: 30px;
+ }
+span{color: orangered;}
+#header ul {
+       padding: 0;
+       margin: 0px;
+       list-style: none;
+       text-align: right;
+}
+#header ul li{
+       display: inline;
+       padding: 15px;
+       vertical-align: middle;
+}
+#header ul li a{
+       text-decoration: none;
+       padding-top: 7px;
+       padding-bottom: 11px;
+       padding-right: 10px;
+       padding-left: 10px;
+       color: white; 
+       vertical-align: middle;
+}
+
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(bgimage.jpg);
+    background-size: cover;
+    height: 34em;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    
+}
+/* .main div{
+    margin: -21px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+.main2{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: darkblue;
+    height: 59px;
+    color: white;
+    align-items: center;
+    padding: 0 3em 0 3em;
+}
+.main2 div a{
+    text-decoration: none;
+    background-color: orangered;
+    padding-top: 7px;
+    padding-bottom: 11px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+
+.main3{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    padding: 0 3em 0 3em;
+    color: black;
+}
+
+.main3 > div {
+    text-align: center;    
+} 
+
+img{
+    width: 148px;
+}
+input{
+    height: 30px;
+}
+
+#footer{
+    background-color: orangered;
+    margin: 0px;
+    height: 30px;
+    clear: both;
+    color: cornsilk;
+    text-align: center;
+    padding: 15px;
+    font-size: 90%;
+}
